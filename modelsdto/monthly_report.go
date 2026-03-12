@@ -1,8 +1,8 @@
 package modelsdto
 
 import (
-	"backend-commons/dtos"
-	"backend-commons/models"
+	"github.com/TB-Systems/financial-control-backend-commons/dtos"
+	"github.com/TB-Systems/financial-control-backend-commons/models"
 )
 
 func MonthlyReportResponseFromModels(model models.MonthlyReport, spendingCategories []models.CategoriesSpending, spendingCreditCards []models.CreditCardsSpending) dtos.MonthlyReportResponse {

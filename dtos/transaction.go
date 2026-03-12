@@ -1,8 +1,8 @@
 package dtos
 
 import (
-	"backend-commons/constants"
-	"backend-commons/models"
+	"github.com/TB-Systems/financial-control-backend-commons/constants"
+	"github.com/TB-Systems/financial-control-backend-commons/models"
 	"time"
 
 	"github.com/TB-Systems/go-commons/errors"

@@ -3,7 +3,7 @@ package modelsdto
 import (
 	"testing"
 
-	"backend-commons/models"
+	"github.com/TB-Systems/financial-control-backend-commons/models"
 
 	"github.com/google/uuid"
 )

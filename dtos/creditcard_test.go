@@ -1,7 +1,7 @@
 package dtos
 
 import (
-	"backend-commons/constants"
+	"github.com/TB-Systems/financial-control-backend-commons/constants"
 	"testing"
 )
 
