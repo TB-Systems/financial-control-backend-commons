@@ -1,4 +1,4 @@
-module financial-control-backend-commons
+module github.com/TB-Systems/financial-control-backend-commons
 
 go 1.25.5
 
