@@ -121,16 +121,3 @@ Run coverage:
 go test ./... -coverprofile=coverage.out
 go tool cover -func=coverage.out
 ```
-
-## Monorepo Notes
-
-When used together with `engine`, keep both modules in the same workspace using `go.work`:
-
-```txt
-use (
-		./backend-commons
-		./engine
-)
-```
-
-This allows `engine` imports such as `backend-commons/dtos` and `backend-commons/models` without publishing this module first.
