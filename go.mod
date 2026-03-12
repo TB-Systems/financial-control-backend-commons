@@ -1,4 +1,4 @@
-module backend-commons
+module financial-control-backend-commons
 
 go 1.25.5
 
