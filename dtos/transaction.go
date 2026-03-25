@@ -1,9 +1,10 @@
 package dtos
 
 import (
+	"time"
+
 	"github.com/TB-Systems/financial-control-backend-commons/constants"
 	"github.com/TB-Systems/financial-control-backend-commons/models"
-	"time"
 
 	"github.com/TB-Systems/go-commons/errors"
 	"github.com/TB-Systems/go-commons/utils"
@@ -34,7 +35,9 @@ type TransactionResponse struct {
 }
 
 type TransactionRequestFromRecurrentTransaction struct {
-	ID uuid.UUID `json:"id"`
+	ID    uuid.UUID `json:"id"`
+	Year  int32     `json:"year"`
+	Month int32     `json:"month"`
 }
 
 func (t TransactionRequestFromRecurrentTransaction) Validate() []errors.ApiErrorItem {

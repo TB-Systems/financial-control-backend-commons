@@ -50,3 +50,9 @@ type TransactionsCreditCardTotal struct {
 	UserID       uuid.UUID
 	CreditcardID uuid.UUID
 }
+
+type GetRecurrentTransactionByIDAndDateParam struct {
+	ID    uuid.UUID
+	Year  int32
+	Month int32
+}
